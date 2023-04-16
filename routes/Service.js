@@ -1,0 +1,25 @@
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Navbar from "../components/Navbar";
+import Trip from "../components/Trip";
+import AboutImg from "../img/4.jpg";
+
+function Service (){
+    return(
+       <>
+       <Navbar />
+      <Hero
+        cName="hero-mid"
+        heroImg={AboutImg}
+        title="Service"
+        
+   
+     
+      btnClass="hide"
+      />
+      <Trip/>
+      <Footer/>
+       </>
+    )
+   }
+   export default Service;
